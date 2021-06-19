@@ -20,6 +20,8 @@ You'll also want an ASGI server, such as Uvicorn:
 pip install uvicorn[standard]
 ```
 
+Also, make sure you have Python3.9+ installed, as [other versions have problems with asyncio.add_signal_handler() being out of the main thread](https://bugs.python.org/issue34679).
+
 ## Running
 
 Once it's all installed, running should be easy. In a terminal, navigate to your installation folder and run your ASGI server. For example, if you use Uvicorn:
