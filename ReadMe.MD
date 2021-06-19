@@ -51,7 +51,7 @@ body = {
 requests.post(url, json=body)
 ```
 
-#### Endpoint 1: `/dm`
+#### Endpoint 2: `/dm`
 
 This endpoint is for sending a direct message to a user in Discord. Please note that the user _must have a shared channel with your bot_ to make this work. For example, if you wish to send a DM to user `1029384`, you could write:   
 
